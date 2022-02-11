@@ -1,5 +1,9 @@
 /data
 /dumps
+/clevrer/image*
+/clevrer/annotation*
+/clevrer/proposals/*
+/clevrer/questions/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
