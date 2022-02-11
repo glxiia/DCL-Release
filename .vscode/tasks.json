@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Set CUDA",
+            "command": "export",
+            "args": ["$CUDA_VISIBLE_DEVICES=0"],
+        }
+    ]
+}

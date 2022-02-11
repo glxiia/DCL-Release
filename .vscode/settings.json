@@ -1,0 +1,13 @@
+{
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/clevrer/*/**": true,
+        // "**/clevrer/*annotation/**": true,
+        // "**/clevrer/*image/**": true,
+        // "**/clevrer/proposals/**": true,
+        // "**/clevrer/questions/**": true,
+        "./data/*/**": true,
+    }
+}
