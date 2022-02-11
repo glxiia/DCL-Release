@@ -141,10 +141,10 @@ def load_options():
     opt = {}
     grounding_result_path = 'dumps/grounding_cache_rgb_sep_prp_ep7_v2'
     #grounding_result_path = 'dumps/grounding_cache_vis_sup'
-    tube_gt_path = '../clevrer/tubeProposalsGt'
-    #tube_prp_path = '../clevrer/tubeProposalsGt'
-    tube_prp_path = '../clevrer/tubeProposalsAttrMatchNoIoUThre/1.0_1.0_0.6_0.7'
-    expression_path = '../clevrer/expressions/exp_val_grounding_v2/refine_grounding_exp.json'
+    tube_gt_path = './clevrer/tubeProposalsGt'
+    #tube_prp_path = './clevrer/tubeProposalsGt'
+    tube_prp_path = './clevrer/tubeProposalsAttrMatchNoIoUThre/1.0_1.0_0.6_0.7'
+    expression_path = './clevrer/expressions/exp_val_grounding_v2/refine_grounding_exp.json'
 
     opt['grounding_result_path'] = grounding_result_path
     opt['tube_gt_path'] = tube_gt_path

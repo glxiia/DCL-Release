@@ -1,7 +1,7 @@
 GPU_ID=$1
-tube_folder_path='../clevrer/tubeProposalsRelease'
+tube_folder_path='./clevrer/tubeProposalsRelease'
 jac-crun ${GPU_ID} scripts/trainval_tube_v2.py --desc clevrer/desc_nscl_derender_clevrer_v2.py\
-    --dataset clevrer --data-dir ../clevrer \
+    --dataset clevrer --data-dir ./clevrer \
     --save-interval 1 --data-split 0.95 --data-workers 2 \
     --normalized_boxes 1 \
     --rel_box_flag 0 --acc-grad 4 --dynamic_ftr_flag  1 \

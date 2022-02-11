@@ -6,7 +6,7 @@ python scripts/script_gen_tube_proposals.py \
     --match_thre 0.7 \
     --version 2 \
     --visualize_flag 0 \
-    --tube_folder_path ../clevrer/tubeProposalsReleaseAttr \
+    --tube_folder_path ./clevrer/tubeProposalsReleaseAttr \
     --use_attr_flag 1 \
     --refine_tube_flag 1 \
     --extract_att_path ${att_path} \

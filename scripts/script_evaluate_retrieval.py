@@ -216,7 +216,7 @@ def load_options():
     retrieval_result_path = 'dumps/retrieval_cache_rgb_sep_prp_ep7'
     tube_gt_path = 'data/raw_data/tubeProposalsGt'
     tube_prp_path = 'data/raw_data/train_val_proposals'
-    expression_path = '../clevrer/expressions/exp_val_retrieval_v5/5000_100_0/refine_retrieval_exp.json'
+    expression_path = './clevrer/expressions/exp_val_retrieval_v5/5000_100_0/refine_retrieval_exp.json'
 
     opt['retrieval_result_path'] = retrieval_result_path
     opt['tube_gt_path'] = tube_gt_path

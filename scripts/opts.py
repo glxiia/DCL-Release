@@ -58,10 +58,10 @@ def load_param_parser():
     parser.add_argument('--force-gpu', action='store_true', help='force the script to use GPUs, useful when there exists on-the-ground devices')
 
     # for clevrer dataset
-    parser.add_argument('--question_path', default='../clevrer/questions')
-    parser.add_argument('--tube_prp_path', default='../clevrer/tubeProposals/1.0_1.0') 
-    parser.add_argument('--frm_prp_path', default='../clevrer/proposals')
-    parser.add_argument('--frm_img_path', default='../clevrer') 
+    parser.add_argument('--question_path', default='./clevrer/questions')
+    parser.add_argument('--tube_prp_path', default='./clevrer/tubeProposals/1.0_1.0') 
+    parser.add_argument('--frm_prp_path', default='./clevrer/proposals')
+    parser.add_argument('--frm_img_path', default='./clevrer') 
     parser.add_argument('--frm_img_num', type=int, default=4)
     parser.add_argument('--img_size', type=int, default=256)
     parser.add_argument('--normalized_boxes', type=int, default=0)
@@ -70,8 +70,8 @@ def load_param_parser():
     parser.add_argument('--dynamic_ftr_flag', type=int, default=1)
     parser.add_argument('--version', type=str, default='v0')
     parser.add_argument('--scene_supervision_flag', type=int, default=0)
-    parser.add_argument('--scene_gt_path', type=str, default='../clevrer')
-    parser.add_argument('--mask_gt_path', type=str, default='../clevrer/proposals/')
+    parser.add_argument('--scene_gt_path', type=str, default='./clevrer')
+    parser.add_argument('--mask_gt_path', type=str, default='./clevrer/proposals/')
     parser.add_argument('--box_only_for_collision_flag', type=int, default=0)
     parser.add_argument('--scene_add_supervision', type=int, default=0)
     parser.add_argument('--scene_supervision_weight', type=float, default=1.0)
@@ -149,7 +149,7 @@ def load_param_parser():
     # for expression
     parser.add_argument('--expression_mode', type=int, default=-1)
     parser.add_argument('--expression_path', type=str, default='')
-    parser.add_argument('--tube_gt_path', default='../clevrer/tubeProposalsGt') 
+    parser.add_argument('--tube_gt_path', default='./clevrer/tubeProposalsGt') 
     parser.add_argument('--exp_ground_thre', type=float, default=0.5)
     # for retireval expression
     parser.add_argument('--retrieval_mode', type=int, default=-1)
